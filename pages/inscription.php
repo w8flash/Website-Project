@@ -80,12 +80,12 @@
 
       if($req->execute()){
 
-          $_SESSION['personne']['email'] = $email;
-
-          exit(); 
+        $_SESSION['personne']['email'] = $email;
+        header("Location: index.php?categorie=6");
+        exit(); 
           
       } else {
-          echo "<script>alert('Ce compte existe déja !!');</script>";
+        echo "<script>alert('Ce compte existe déja !!');</script>";
       }
   }
 ?>

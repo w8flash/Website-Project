@@ -82,6 +82,7 @@
                     $_SESSION['personne']['adresse']=$result[0]['AdrCli'];
                     $_SESSION['personne']['cp']=$result[0]['CPCli'];
                     $_SESSION['personne']['ville']=$result[0]['VilleCli'];*/
+                    header("Location: index.php?categorie=6");
                     exit(); 
                     
                 } else echo "<script>alert('Erreur lors de la connexion au compte');</script>";
