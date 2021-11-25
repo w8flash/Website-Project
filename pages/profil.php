@@ -1,3 +1,8 @@
+<?php
+  if (!isset($_SESSION['personne'])) {
+    header("Location: index.php");
+  }
+?>
 <div class="wrapper">
     <section id='steezy'>
       <h2> Profil</h2>

@@ -8,6 +8,7 @@
   <meta name="description" content="Projet Website" />
   <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- IMPORTANT POUR LE RESPONSIVE -->
   <link rel="stylesheet" href="ressource/css/index.css" />
+  <link rel="stylesheet" href="ressource/css/style.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,500,600" />
 </head>
 

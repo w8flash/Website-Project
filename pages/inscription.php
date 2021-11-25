@@ -1,18 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Inscription</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"><link rel="stylesheet" href="../ressource/css/style.css">
-
-</head>
 <!-- partial:index.partial.html -->
-<body class="align">
-  <?php
-    if(isset($erreur)) {
-      echo '<font color="red">'.$erreur."</font>";
-    }
-  ?>
+<div class="align">
   <div class="grid">
 
     <form method="POST" class="form login">
@@ -43,7 +30,7 @@
 
     </form>
 
-    <p class="text--center">Already a member? <a href="./pages/connexion.php">Sign in now</a> <svg class="icon">
+    <p class="text--center">Already a member? <a href="index.php?categorie=4">Sign in now</a> <svg class="icon">
         <use xlink:href="#icon-arrow-right"></use>
       </svg></p>
 
@@ -61,10 +48,8 @@
     </symbol>
   </svg>
 
-</body>
+</div>
 <!-- partial -->
-</html>
-
 
 <?php
   include 'connexion_db.php';
